@@ -1,11 +1,10 @@
+# EXPERIMENT.NO:1
 # EXECUTION-OF-LOGIC-GATES-USING-PLC-LADDER-PROGRAM
 
-
- # NAME :
- # REGISTER NUMBER :
- # DEPARTMENT 
- # YEAR 
-
+ # NAME : SRINITHI V
+ # REGISTER NUMBER : 212222110046
+ # DEPARTMENT : CSE(IoT)
+ # YEAR : III
  
 # Aim:
 To implement and verify the functioning of basic logic gates (AND, OR, NOT, NAND, NOR, XOR) using a PLC ladder program and simulate the outputs.
@@ -18,7 +17,6 @@ Input Devices - Push buttons or switches to simulate inputs (I/O modules).
 Output Devices - LEDs or any indicator to visualize the output of logic gates (I/O modules).
 Wires and Connectors - For connecting input/output devices to the PLC.
 Power Supply - Appropriate power supply for PLC and peripherals.
-
 
 # Theory:
 Logic gates are the fundamental building blocks of digital circuits, and they process binary inputs to produce a binary output. In PLC programming, these logic gates can be implemented using ladder logic, which is a graphical programming language resembling electrical relay logic.
@@ -78,10 +76,12 @@ NOR Gate: The output should be HIGH only when both inputs are LOW.
 XOR Gate: The output should light up when exactly one input is HIGH.
 
 
-# SIMULATION RESULTS 
+# SIMULATION RESULTS:
+## AND Gate:
+![AND](https://github.com/user-attachments/assets/eb21c53c-dc22-4755-89d8-bdccd953eeac)
+## OR Gate:
 
-
-#Results:
+# Results:
 The ladder logic programs for each logic gate were successfully implemented and simulated.
 The outputs observed matched the expected results as per the truth tables of the respective logic gates.
 This experiment demonstrates the effective use of PLCs in executing digital logic operations, which are fundamental to industrial control systems.
