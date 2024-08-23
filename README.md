@@ -46,8 +46,54 @@ XOR Gate:
 
 Function: Outputs HIGH when an odd number of inputs are HIGH.
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.
+
 # Truth Tables:
- 
+## AND Gate:
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   1    |
+
+## OR Gate:
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   1    |
+
+## NOT Gate:
+| Input | Output |
+|-------|--------|
+|   0   |   1    |
+|   1   |   0    |
+
+## NAND Gate:
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   1    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   0    |
+
+## NOR Gate:
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   1    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   0    |
+
+## XOR Gate:
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   0    |
+
 # Procedure:
 Setup the PLC Programming Environment:
 
@@ -80,6 +126,15 @@ XOR Gate: The output should light up when exactly one input is HIGH.
 ## AND Gate:
 ![AND](https://github.com/user-attachments/assets/eb21c53c-dc22-4755-89d8-bdccd953eeac)
 ## OR Gate:
+![OR](https://github.com/user-attachments/assets/42d78280-9cb7-463c-8c55-3db58a6b252e)
+## NOT Gate:
+![NOT](https://github.com/user-attachments/assets/ec3c071d-466c-4839-a03b-ffb509a1ac31)
+## NAND Gate:
+![NAND](https://github.com/user-attachments/assets/1cbef49f-908d-4a33-8e90-543ea6001102)
+## NOR Gate:
+![NOR](https://github.com/user-attachments/assets/3bba9280-16c9-4d6b-a2c1-0d7b382e68c9)
+## XOR Gate:
+![XOR](https://github.com/user-attachments/assets/c7345af9-4251-46df-9af2-eef7f8966b21)
 
 # Results:
 The ladder logic programs for each logic gate were successfully implemented and simulated.
